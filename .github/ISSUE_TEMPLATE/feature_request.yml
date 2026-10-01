@@ -1,0 +1,15 @@
+name: Feature request
+description: A workflow you'd like your agent to do with Gupshup
+labels: [enhancement]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What do you want the agent to do?
+      description: Describe the job in plain language, e.g. "every Monday, summarize failed RCS messages and retry on SMS".
+    validations: { required: true }
+  - type: dropdown
+    id: who
+    attributes:
+      label: You are a
+      options: [Enterprise customer, Self-serve customer, CX platform user, Developer evaluating Gupshup]

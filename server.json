@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.gupshupsuperagent/mcp",
+  "title": "Gupshup",
+  "description": "Gupshup messaging for AI agents: analytics, templates and campaigns across WhatsApp, SMS and RCS.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mcp.gupshup.ai",
+  "repository": {
+    "url": "https://github.com/GupshupSuperAgent/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gupshup.ai/enterprise-auth/mcp"
+    }
+  ]
+}

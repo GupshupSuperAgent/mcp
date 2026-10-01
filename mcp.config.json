@@ -1,0 +1,25 @@
+{
+  "_comment": "Single source for every URL in this repo. Edit, then run `python3 scripts/render_docs.py`. Flip use_legacy_as_primary to false once https://mcp.gupshup.ai/enterprise/mcp is live.",
+  "server_name": "gupshup",
+  "mcp_url": "https://mcp.gupshup.ai/enterprise/mcp",
+  "mcp_url_legacy": "https://mcp.gupshup.ai/enterprise-auth/mcp",
+  "use_legacy_as_primary": true,
+  "registry_name": "io.github.gupshupsuperagent/mcp",
+  "version": "1.0.0",
+  "website_url": "https://mcp.gupshup.ai",
+  "repo_url": "https://github.com/GupshupSuperAgent/mcp",
+  "docs_url": "https://docs.gupshup.io",
+  "sales_email": "sales@gupshup.ai",
+  "privacy_url": "https://www.gupshup.ai/privacy-policy",
+  "terms_url": "https://www.gupshup.ai/terms-and-conditions",
+  "trust_url": "https://www.gupshup.ai/enterprise-security",
+  "self_serve": {
+    "_comment": "Self-serve customers: Gupshup API MCP hosted on the docs portal. auth_header must match what docs.gupshup.io/mcp expects - CONFIRM before publishing.",
+    "server_name": "gupshup-api",
+    "mcp_url": "https://docs.gupshup.io/mcp",
+    "api_docs_url": "https://docs.gupshup.io/reference/msg",
+    "auth_header": "apikey",
+    "env_var": "GUPSHUP_API_KEY"
+  },
+  "github_repo": "GupshupSuperAgent/mcp"
+}

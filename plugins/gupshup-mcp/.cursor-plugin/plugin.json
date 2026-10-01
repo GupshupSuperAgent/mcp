@@ -1,0 +1,30 @@
+{
+  "name": "gupshup",
+  "displayName": "Gupshup",
+  "version": "1.0.0",
+  "description": "Run WhatsApp, SMS and RCS from Cursor: Gupshup analytics, template drafting and approval, and A/B, multilingual and scheduled campaigns, with a human review step before anything is sent.",
+  "author": {
+    "name": "Gupshup",
+    "url": "https://www.gupshup.ai"
+  },
+  "homepage": "https://mcp.gupshup.ai",
+  "repository": "https://github.com/GupshupSuperAgent/mcp",
+  "license": "MIT",
+  "keywords": [
+    "gupshup",
+    "whatsapp",
+    "whatsapp-business-api",
+    "sms",
+    "rcs",
+    "messaging",
+    "cpaas",
+    "campaigns",
+    "templates",
+    "marketing",
+    "analytics",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "skills/",
+  "mcpServers": "mcp.json"
+}

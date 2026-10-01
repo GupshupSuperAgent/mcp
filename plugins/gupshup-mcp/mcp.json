@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gupshup": {
+      "type": "http",
+      "url": "https://mcp.gupshup.ai/enterprise-auth/mcp"
+    }
+  }
+}

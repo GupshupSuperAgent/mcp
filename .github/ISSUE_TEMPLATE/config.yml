@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/GupshupSuperAgent/mcp/security/advisories/new
+    about: Please report security issues privately.
+  - name: Sales, new accounts and early access
+    url: mailto:sales@gupshup.ai
+    about: Get a Gupshup account or early access to the CX MCP.

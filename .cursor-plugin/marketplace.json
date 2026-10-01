@@ -1,0 +1,27 @@
+{
+  "name": "gupshup",
+  "owner": {
+    "name": "Gupshup",
+    "email": "sales@gupshup.ai"
+  },
+  "plugins": [
+    {
+      "name": "gupshup",
+      "source": "plugins/gupshup-mcp",
+      "description": "Run WhatsApp, SMS and RCS from Cursor: Gupshup analytics, template drafting and approval, and A/B, multilingual and scheduled campaigns, with a human review step before anything is sent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gupshup"
+      },
+      "category": "Communication",
+      "tags": [
+        "whatsapp",
+        "sms",
+        "rcs",
+        "messaging",
+        "marketing"
+      ],
+      "logo": "plugins/gupshup-mcp/assets/logo.svg"
+    }
+  ]
+}

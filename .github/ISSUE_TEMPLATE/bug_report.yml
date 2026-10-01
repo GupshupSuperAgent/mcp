@@ -1,0 +1,25 @@
+name: Bug or setup problem
+description: Something isn't working when connecting or using Gupshup MCP
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Never include passwords, tokens, phone numbers or customer data.** For account-specific problems contact your Gupshup account manager."
+  - type: dropdown
+    id: client
+    attributes:
+      label: MCP client
+      options: [Claude (web/desktop), Claude Code, Cursor, VS Code, ChatGPT, Codex, Windsurf / Devin, Other]
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Client version }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps, the tool or prompt involved, and the exact error text.
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: What did you expect? }

@@ -1,0 +1,21 @@
+{
+  "name": "gupshup-mcp",
+  "version": "1.0.0",
+  "description": "Gupshup messaging for AI agents: analytics, templates and campaigns across WhatsApp, SMS and RCS.",
+  "author": {
+    "name": "Gupshup",
+    "url": "https://mcp.gupshup.ai"
+  },
+  "homepage": "https://mcp.gupshup.ai",
+  "repository": "https://github.com/GupshupSuperAgent/mcp",
+  "license": "MIT",
+  "keywords": [
+    "gupshup",
+    "whatsapp",
+    "sms",
+    "rcs",
+    "messaging",
+    "cpaas",
+    "campaigns"
+  ]
+}

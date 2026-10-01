@@ -1,0 +1,15 @@
+{
+  "name": "gupshup",
+  "description": "Official Gupshup plugins for Claude Code",
+  "owner": {
+    "name": "Gupshup",
+    "url": "https://mcp.gupshup.ai"
+  },
+  "plugins": [
+    {
+      "name": "gupshup-mcp",
+      "source": "./plugins/gupshup-mcp",
+      "description": "Gupshup messaging for AI agents: analytics, templates and campaigns across WhatsApp, SMS and RCS."
+    }
+  ]
+}
